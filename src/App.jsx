@@ -3,13 +3,12 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Technologies from './components/Technologies'
-import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import { ThemeProvider } from './context/Theme'
 
 function App() {
-  const [themeMode, setThemeMode] = useState("light")
+  const [themeMode, setThemeMode] = useState("dark")
 
   const lightTheme = () => {
     setThemeMode('light')
@@ -24,6 +23,7 @@ function App() {
     document.querySelector('html').classList.add(themeMode)
   }, [themeMode])
   return (
+    
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="flex flex-wrap min-h-screen items-center">
         <div className="w-full">
@@ -44,7 +44,6 @@ function App() {
               <Hero />
               <About />
               <Technologies />
-              <Experience />
               <Projects />
               <Contact />
             </div>

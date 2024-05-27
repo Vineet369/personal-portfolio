@@ -1,9 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaDocker } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVarients = (duration) => ({
@@ -40,13 +40,6 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div 
-          variants={iconVarients(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
-          <TbBrandNextjs className="text-7xl" />
-        </motion.div>
-        <motion.div 
           variants={iconVarients(4)}
           initial="initial"
           animate="animate"
@@ -58,7 +51,14 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
-          <DiRedis className="text-7xl text-red-700" />
+          <FaGithub className="text-7xl text-slate-800" />
+        </motion.div>
+        <motion.div 
+          variants={iconVarients(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
+          <RiTailwindCssFill className="text-7xl text-sky-600" />
         </motion.div>
         <motion.div 
           variants={iconVarients(3)}
@@ -72,7 +72,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <FaDocker className="text-7xl text-sky-700" />
         </motion.div>
       </motion.div>
     </motion.div>

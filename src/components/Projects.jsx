@@ -21,7 +21,7 @@ const Projects = () => {
                     <img 
                         src={project.image} 
                         alt={project.title}
-                        width={150}
+                        width={150} 
                         height={150}
                         className='mb-6 rounded'
                         />
@@ -32,7 +32,8 @@ const Projects = () => {
                         transition={{ duration: 1}}
                         className='w-full max-w-xl lg:w-3/4'>
                         <h6 className='mb-2 font-semibold text-slate-600 dark:text-slate-100'>
-                            {project.title}
+                            {project.title} - {" "}
+                            <a href={project.link} target='_blank'><span className='text-xs p-2 rounded-2xl bg-indigo-800 text-slate-600 dark:bg-sky-800 dark:text-slate-100'>Github</span></a>
                         </h6>
                         <p className='mb-4 text-neutral-400 text-slate-600 dark:text-slate-100'>{project.description}</p>
                             {project.technologies.map((tech, index) => (

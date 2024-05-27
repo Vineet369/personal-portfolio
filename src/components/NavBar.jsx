@@ -1,7 +1,7 @@
 
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import logo from '../assets/kevinRushLogo.png';
+import logo from '../assets/vineetLogo.png';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
 import ThemeBtn from './ThemeButton';
@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <nav className=" mb-8 flex items-center justify-between">
         <div className="flex flex-shrink-1 items-center">
-            <img className="mx-2 w-10" src={logo} alt="logo" /> 
+            <img className="mx- w-20" src={logo} alt="logo" /> 
         </div> 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
             <ThemeBtn />

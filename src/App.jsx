@@ -31,7 +31,7 @@ function App() {
           <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-300'>
             <div className='fixed top-0 -z-10 h-full w-full'>
             
-           <div className='bg-gradient-to-t from-zinc-100 from-10% to-zinc-300 to-90% dark:bg-gradient-to-t dark:from-gray-950 dark:from-30% dark:to-indigo-950 dark:to-90%) '><div class="min-h-screen flex flex-col" /></div>
+           <div className='bg-gradient-to-t from-white from-10% to-orange-100 to-90% dark:bg-gradient-to-t dark:from-gray-950 dark:from-30% dark:to-indigo-950 dark:to-90%) '><div class="min-h-screen flex flex-col" /></div>
             {/* <div class="relative h-full w-full bg-black">
               <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
               <div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>

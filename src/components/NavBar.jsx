@@ -24,7 +24,7 @@ const NavBar = () => {
             <a href="https://x.com/Vineet_369?t=MrsY8DFSvhLJBjIT_kKWBg&s=09" target='_blank'>
             <FaSquareXTwitter className='text-slate-700 dark:text-slate-300'/>
             </a>
-            <a href="https://www.instagram.com/vineetmaurya_369/" target='_blank'>
+            <a href="https://www.instagram.com/thatsme_jinga/" target='_blank'>
             <FaInstagram className='text-slate-700 dark:text-slate-300'/>
             </a>
             <a href="https://drive.google.com/file/d/1oNFfzsinbcyW_7d3sMJyJuQr3QI9HRyD/view?usp=drive_link" target='_blank'>

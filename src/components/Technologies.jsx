@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiPostman } from "react-icons/si";
+
 
 const iconVarients = (duration) => ({
   initial: { y: -10 },
@@ -73,6 +75,13 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
           <FaDocker className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div 
+          variants={iconVarients(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-400 p-4 dark:border-neutral-800">
+          <SiPostman className="text-7xl text-orange-500" />
         </motion.div>
       </motion.div>
     </motion.div>

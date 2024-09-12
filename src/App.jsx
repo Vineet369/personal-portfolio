@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Technologies from './components/Technologies'
+import Experience from './components/Experience';
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import { ThemeProvider } from './context/Theme'
@@ -31,19 +32,20 @@ function App() {
           <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-300'>
             <div className='fixed top-0 -z-10 h-full w-full'>
             
-           <div className='bg-gradient-to-t from-white from-10% to-orange-100 to-90% dark:bg-gradient-to-t dark:from-gray-950 dark:from-30% dark:to-indigo-950 dark:to-90%) '><div class="min-h-screen flex flex-col" /></div>
+           <div className='bg-gradient-to-t from-white from-10% to-orange-100 to-90% dark:bg-gradient-to-t dark:from-gray-950 dark:from-30% dark:to-indigo-950 dark:to-90%) '><div className="min-h-screen flex flex-col" /></div>
             {/* <div class="relative h-full w-full bg-black">
               <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
               <div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
               </div>            
                 </div> */}
-           <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"></div>
+           <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"></div>
             </div>
             <div className='container mx-auto px-8'>
               <NavBar />
               <Hero />
               <About />
               <Technologies />
+              <Experience />
               <Projects />
               <Contact />
             </div>

@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Ejs, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -14,6 +15,10 @@ export const EXPERIENCES = [
     role: "Front-end Web Developer",
     company: "IBM SkillsBuild Summer Internship Program",
     description: `Gained strong technical knowledge in web development, learned and applied new technologies into hand's on project to build a resale e-commerce website with multiple pages.`,
+    image: project6,
+    title: "E-commerce resale website",
+    link: "https://e-commrece-resale-paltform.vercel.app/",
+    certificate: "https://drive.google.com/file/d/1HJR7m1IyjZrnyXj8h05gnswN1AmJmvwl/view?usp=drive_link",
     technologies: ["Javascript", "React.js", "HTML","CSS"],
   },
 ];

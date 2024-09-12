@@ -16,24 +16,6 @@ const NavBar = () => {
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
         <ThemeBtn />
         <a href="http://linkedin.com/in/vineet-maurya-75aa52230" target='_blank'>
-<<<<<<< HEAD
-          <FaLinkedin className='text-slate-700 dark:text-slate-300' />
-        </a>
-        <a href="https://github.com/Vineet369" target='_blank'>
-          <FaGithub className='text-slate-700 dark:text-slate-300' />
-        </a>
-        <a href="https://x.com/Vineet_369?t=MrsY8DFSvhLJBjIT_kKWBg&s=09" target='_blank'>
-          <FaSquareXTwitter className='text-slate-700 dark:text-slate-300' />
-        </a>
-        <a href="https://www.instagram.com/thatsme_jinga/" target='_blank'>
-          <FaInstagram className='text-slate-700 dark:text-slate-300' />
-        </a>
-        <a href="https://drive.google.com/file/d/1oNFfzsinbcyW_7d3sMJyJuQr3QI9HRyD/view?usp=drive_link" target='_blank'>
-          <h2 className='text-lg'>| My Resume</h2>
-        </a>
-
-      </div>
-=======
             <FaLinkedin className='text-slate-700 dark:text-slate-300'/>
               </a>
               <a href="https://github.com/Vineet369" target='_blank'>
@@ -42,14 +24,13 @@ const NavBar = () => {
             <a href="https://x.com/Vineet_369?t=MrsY8DFSvhLJBjIT_kKWBg&s=09" target='_blank'>
             <FaSquareXTwitter className='text-slate-700 dark:text-slate-300'/>
             </a>
-            <a href="https://www.instagram.com/thatsme_jinga/" target='_blank'>
+            <a href="#" target='_blank'>
             <FaInstagram className='text-slate-700 dark:text-slate-300'/>
             </a>
             <a href="https://drive.google.com/file/d/1oNFfzsinbcyW_7d3sMJyJuQr3QI9HRyD/view?usp=drive_link" target='_blank'>
           <h2 className='text-lg dark:text-slate-300'>| My Resume</h2>
         </a>
         </div>
->>>>>>> ec8477874bdca73f5267b8fe231f67a6e6635427
     </nav>
   )
 }

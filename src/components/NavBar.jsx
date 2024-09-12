@@ -27,7 +27,7 @@ const NavBar = () => {
             <a href="#" target='_blank'>
             <FaInstagram className='text-slate-700 dark:text-slate-300'/>
             </a>
-            <a href="https://docs.google.com/document/d/1cNjV8YkDDCy4dqmbcaVHvc33eeB4Ar-4rQPva0PyRpQ/edit?usp=drive_link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1G_PS1dUN2shh9oDUl7Ko8ahIoYl8LCBJ/view?usp=sharing" target='_blank'>
           <h2 className='text-lg dark:text-slate-300'>| My Resume</h2>
         </a>
         </div>
